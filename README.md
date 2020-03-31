@@ -1,7 +1,8 @@
-# NOOBS (New Out of Box Software)
-#### An easy Operating System installer for the Raspberry Pi
+# EFSCOIN 
 
-NOOBS is designed to make it easy to select and install operating systems for the Raspberry Pi without having to worry about manually imaging your SD card.
+### An easy Operating System installer for the Raspberry Pi
+
+EFSCOIN is designed to make it easy to select and install operating systems for the Raspberry Pi without having to worry about manually imaging your SD card.
 
 The latest official release of EFSCOIN can be downloaded from http://downloads.raspberrypi.org/NOOBS_latest
 
@@ -12,20 +13,20 @@ For information on previous releases and version changelists, visit https://gith
 <sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your Raspberry Pi model and the availability of OSes on our remote download repository.</sup>
 
 ### About
-On first boot NOOBS will repartition your SD card and allow you to select which OSes you want to install from a list. This OS list is automatically generated from both locally available OSes (i.e. those contained in the `/os` directory on disk) or those available from our remote repository (network connection required).
+On first boot EFSCOIN will repartition your SD card and allow you to select which OSes you want to install from a list. This OS list is automatically generated from both locally available OSes (i.e. those contained in the `/os` directory on disk) or those available from our remote repository (network connection required).
 
 Only the latest version of each OS will ever be displayed meaning that you can be sure that you have installed the most up-to-date release of your selected OS.
 
 On any subsequent boot you can then press the SHIFT key to enter the NOOBS interface and easily reinstall your choice of OSes.
 
-The NOOBS interface provides the following functionality:
+The EFSCOIN interface provides the following functionality:
 - <b>Install</b>: Installs the selected OSes onto your SD card. Changing this selection erases all OSes currently installed.
 - <b>Edit Config</b>: Opens a text editor allowing the cmdline and config for the selected installed OS to be edited.
 - <b>Online Help</b>: [Networking Required] Open a browser that displays the Raspberry Pi Help page ( http://www.raspberrypi.org/help/ ), allowing people to quickly access help and troubleshooting.
-- <b>Exit</b>: Quits NOOBS and reboots the Pi into the OS boot menu.
+- <b>Exit</b>: Quits EFSCOIN and reboots the Efs into the OS boot menu.
 - <b>Language Selection</b>: Allows you to select the language to be displayed.
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
-- <b>Display Mode Selection</b>: By default, NOOBS will output over HDMI at your display's preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
+- <b>Display Mode Selection</b>: By default, EFSCOIN will output over HDMI at your display's preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
 Note that all user settings (language, keyboard layout, display mode) will persist between reboots and will also be automatically passed to the installed OSes. This means that if you can see the NOOBS interface on your display device then you should be able to see the OS CLI/GUI when it boots too!
 ### Setup
@@ -44,19 +45,19 @@ EFSCOIN is available in 2 formats:
 - `EFSCOIN Full` includes the installation files for Raspbian Full and LibreELEC only.
 - `EFSCOIN-Lite` does not include any Operating Systems at all.
 
-Please note that RISC OS cannot be installed by the NOOBS FULL version due to the amount of space taken up by the included Operating Systems.
+Please note that RISC OS cannot be installed by the EFSCOIN FULL version due to the amount of space taken up by the included Operating Systems.
 
-If you want to install RISC OS, use NOOBS-Lite instead, or change the included operating systems.
+If you want to install RISC OS, use EFSCOIN-Lite instead, or change the included operating systems.
 
 #### OS Network Download
 
-Both versions of EFSCOIN allow additional Operating Systems to be downloaded from our remote repository. To do this, the Raspberry Pi must be connected to a wired network, or it can connect over Wifi using the [Raspberry Pi USB wifi dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/) or the Raspberry Pi 3 Model B built-in wifi. 
+Both versions of EFSCOIN allow additional Operating Systems to be downloaded from our remote repository. To do this, the EFSCOIN Efs must be connected to a wired network, or it can connect over Wifi using the [EFSCOIN Efs USB wifi dongle](https://github.com/products/usb-wifi-dongle/) or the EFSCOIN Efs Model B built-in wifi. 
 
-Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root NOOBS directory and append `showall` to the arguments list.
+Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root EFSCOIN directory and append `showall` to the arguments list.
 
 #### Wired Networks
 
-If a wired ethernet cable is plugged into the Pi before NOOBS starts, NOOBS will connect via DHCP to our remote download repository and present a list of available Operating Systems that are available for installation.
+If a wired ethernet cable is plugged into the Efs before NOOBS starts, NOOBS will connect via DHCP to our remote download repository and present a list of available Operating Systems that are available for installation.
 
 #### Wifi Networks
 
@@ -74,9 +75,9 @@ For <b>Linux</b> users we recommend `gparted` (or the command line version `part
 
 ===
 
-### Screenshots
+## Screenshots
 
-#### OS Installation
+### OS Installation
 
 Simply select the checkbox next to each OS you want to install using either a mouse or keyboard (arrow keys to traverse the list, enter to toggle the selected OS's checkbox), then click the "Install" icon (or press "i" on your keyboard) to install the selection. The icons shown on the right of the list indicate whether the OS is being installed from the SD card (SD card icon) or from the online OS repository (Ethernet icon).
 
@@ -85,13 +86,13 @@ Simply select the checkbox next to each OS you want to install using either a mo
 <sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
 
-#### Online Help via Web Browser
+### Online Help via Web Browser
 
 The built-in Arora web browser allows you to easily get help via the EFSCOIN Efs Forums (wired network connection required).
 
 ![alt text](screenshots/browser.png "Search the EFSCOIN Efs forums for help via the built-in web browser")
 
-#### Easy Config File Editor
+### Easy Config File Editor
 
 The built-in config file editor allows you to edit the config file of the OS currently highlighted in the OS list. This allows you to easily add license keys to different OS installs through the same interface.
 
@@ -99,13 +100,13 @@ Note that the output mode selected by the user through pressing one of number ke
 
 ![alt text](screenshots/config_editor.png "Easily edit the config files of any installed OS")
 
-#### Installer Slideshow
+### Installer Slideshow
 
 An installer slideshow guides you through your first steps with each OS while it installs.
 
 ![alt text](screenshots/installer_slides.png "An installer slideshow guides you through your first steps with each OS")
 
-#### OS Boot Selector
+### OS Boot Selector
 
 After multiple OSes have been installed, you can select which OS to boot through this selection window that is automatically displayed. NOOBS will remember your choice and boot this OS by default unless a different option has been selected within 10 seconds.
 
@@ -143,7 +144,7 @@ The following steps allow you to create a modified copy of one of the standard O
 
 1. Download a base version of NOOBS from http://downloads.raspberrypi.org/NOOBS_latest
 
-2. Extract the NOOBS zipfile
+2. Extract the EFSCOIN zipfile
 
 3. Navigate to the `os` directory
 
@@ -161,7 +162,7 @@ The following steps allow you to create a modified copy of one of the standard O
   1. "partition_size_nominal" - replace the numerical value with the size of the paritions in your custom OS version
   2. "uncompressed_tarball_size" - replace the numerical value with the size of your filesystem tarballs when uncompressed
 
-9. Replace the `.tar.xz` root and boot filesystem tarballs with copies created from your custom OS version (these instructions assume you're only using a single OS at a time with NOOBS - they won't work if you're running multiple OSes from a single SD card). The name of these tarballs needs to match the labels given in `partitions.json`.
+9. Replace the `.tar.xz` root and boot filesystem tarballs with copies created from your custom OS version (these instructions assume you're only using a single OS at a time with EFSCOIN - they won't work if you're running multiple OSes from a single SD card). The name of these tarballs needs to match the labels given in `partitions.json`.
   1. To create the root tarball you will need to run `bsdtar --numeric-owner --format gnutar --one-file-system -cpf <label>.tar .` from within the root filesystem of your custom OS version. You should then compress the resulting tarball with `xz -9 -e <label>.tar`.
   2. To create the boot tarball you will need to run `bsdtar --numeric-owner --format gnutar -cpf <label>.tar .` at the root directory of the boot partition of your custom OS version. You should then compress the resulting tarball with `xz -9 -e <label>.tar`.
 
@@ -172,13 +173,13 @@ Edit the `recovery.cmdline` file in the root NOOBS directory and append the foll
 - `keyboard=<two-letter layout code>` (e.g. `keyboard=de` or `keyboard=us`)
 - `display=<display mode number>` (e.g. `display=1` or `display=3`)
 - `partition=<partition_number>` (e.g. `partition=6`)
-- `showall` (shows all available OSes regardless of your Raspberry Pi model)
+- `showall` (shows all available OSes regardless of your EFSCOIN Efs model)
 
 Note that these defaults will be overwritten by any changes made in the GUI to these settings.
 
 ### How to bypass the Recovery splashscreen and boot directly into a fixed partition
 
-After you have installed your chosen OSes, add the following file to the root directory of NOOBS to force the indicated partition to be booted at power-on.
+After you have installed your chosen OSes, add the following file to the root directory of EFSCOIN to force the indicated partition to be booted at power-on.
 
 1. Add a text file named `autoboot.txt` to the root directory of NOOBS.
 
@@ -186,9 +187,9 @@ After you have installed your chosen OSes, add the following file to the root di
 
 This will also prevent the splashscreen from being displayed at boot. The partition number can be found by running `sudo fdisk -l` the partition will be one of the FAT32 partitions `/dev/mmcblk0p6` would be partition 6. Note that once an `autoboot.txt` file is present, there's then no way to force the NOOBS GUI to display, until you delete (or rename) the `autoboot.txt` file.
 
-### How to use with the Raspberry Pi Touch Display
+### How to use with the EFSCOIN Efs Touch Display
 
-If NOOBS detects you are using the [Raspberry Pi Touch Display](https://www.raspberrypi.org/products/raspberry-pi-touch-display/), it will enable the following functionality:
+If EFSCOIN detects you are using the [Raspberry Pi Touch Display](https://www.raspberrypi.org/products/efscoin-touch-display/), it will enable the following functionality:
 - A tap on the raspberry logo in the centre of the touchscreen can activate NOOBS, as well as holding the shift key down.
 - A tap on the touchscreen will simulate a mouse click
 - A longpress on the touchscreen will simulate a mouse double-click.
@@ -197,13 +198,13 @@ If NOOBS detects you are using the [Raspberry Pi Touch Display](https://www.rasp
 
 ## Troubleshooting
 
-#### What to do if your SHIFT keypress isn't detected
+### What to do if your SHIFT keypress isn't detected
 
 Try pressing shift only when the grey splashscreen is displayed rather than holding it from boot up.
 
-#### How to boot into "Safe Mode"
+### How to boot into "Safe Mode"
 
-To boot into a basic busybox shell rather than launching the NOOBS GUI, you can *either*:
+To boot into a basic busybox shell rather than launching the EGSCOIN GUI, you can *either*:
 
 1. Append `rescueshell` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 
@@ -211,7 +212,7 @@ To boot into a basic busybox shell rather than launching the NOOBS GUI, you can 
 
 #### How to enable using the GPIO to trigger entering Recovery Mode
 
-To force Recovery Mode to be entered on boot and to show the NOOBS interface, you normally press the `SHIFT` key during bootup. If you don't have a keyboard or the `SHIFT` keypress isn't being detected, you should complete the following steps to force the NOOBS interface to be displayed on boot:
+To force Recovery Mode to be entered on boot and to show the EFSCOIN interface, you normally press the `SHIFT` key during bootup. If you don't have a keyboard or the `SHIFT` keypress isn't being detected, you should complete the following steps to force the NOOBS interface to be displayed on boot:
 
 1. Append `gpiotriggerenable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 2. Reboot
@@ -233,19 +234,19 @@ In some rare cases, you may find that NOOBS incorrectly detects a `SHIFT` keypre
 
 To prevent a `SHIFT` keypress from entering Recovery Mode on boot (maybe you have a problematic keyboard which is erroneously triggering every time you boot), you can:
 
-1. Append `keyboardtriggerdisable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+1. Append `keyboardtriggerdisable` to the argument list in the `recovery.cmdline` file which is found in the root EFSCOIN directory.
 2. Reboot
 
 #### How to change display output modes
 
-By default, NOOBS will output over HDMI at your display’s preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
+By default, EFSCOIN will output over HDMI at your display’s preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
-If you don't have a keyboard, you can still change the display mode used by NOOBS through editing the `recovery.cmdline` file in the root NOOBS directory prior to first boot and appending the following argument:
+If you don't have a keyboard, you can still change the display mode used by EFSCOIN through editing the `recovery.cmdline` file in the root NOOBS directory prior to first boot and appending the following argument:
 - `display=<display mode number>` (e.g. `display=1` or `display=3`)
 
 ===
 
-## How to Rebuild NOOBS
+## How to Rebuild EFSCOIN
 
 Note that this will require a minimum of 6GB free disk space.
 
