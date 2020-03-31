@@ -3,7 +3,7 @@
 
 NOOBS is designed to make it easy to select and install operating systems for the Raspberry Pi without having to worry about manually imaging your SD card.
 
-The latest official release of NOOBS can be downloaded from http://downloads.raspberrypi.org/NOOBS_latest
+The latest official release of EFSCOIN can be downloaded from http://downloads.raspberrypi.org/NOOBS_latest
 
 For information on previous releases and version changelists, visit https://github.com/raspberrypi/noobs/releases
 
@@ -30,9 +30,9 @@ The NOOBS interface provides the following functionality:
 Note that all user settings (language, keyboard layout, display mode) will persist between reboots and will also be automatically passed to the installed OSes. This means that if you can see the NOOBS interface on your display device then you should be able to see the OS CLI/GUI when it boots too!
 ### Setup
 
-To set up a blank SD card with NOOBS:
+To set up a blank SD card with EFSCOIN:
 - Format an SD card that is 8GB or greater in size as FAT32 (see instructions on how to do this below)
-- Download and extract the files from the NOOBS zip file. (Windows built-in zip features may have trouble with this file. If so, use another program such as [7zip](http://www.7-zip.org/).)
+- Download and extract the files from the EFSCOIN zip file. (Windows built-in zip features may have trouble with this file. If so, use another program such as [7zip](http://www.7-zip.org/).)
 - Copy the extracted files onto the SD card that you just formatted so that this file is at the root directory of the SD card.
 <b> Please note that in some cases it may extract the files into a folder, if this is the case then please copy across the files from inside the folder rather than the folder itself.</b>
 
@@ -40,9 +40,9 @@ On first boot the "RECOVERY" FAT partition will be automatically resized to a mi
 
 ### Operating System Choice
 
-NOOBS is available in 2 formats:
-- `NOOBS Full` includes the installation files for Raspbian Full and LibreELEC only.
-- `NOOBS-Lite` does not include any Operating Systems at all.
+EFSCOIN is available in 2 formats:
+- `EFSCOIN Full` includes the installation files for Raspbian Full and LibreELEC only.
+- `EFSCOIN-Lite` does not include any Operating Systems at all.
 
 Please note that RISC OS cannot be installed by the NOOBS FULL version due to the amount of space taken up by the included Operating Systems.
 
@@ -50,9 +50,9 @@ If you want to install RISC OS, use NOOBS-Lite instead, or change the included o
 
 #### OS Network Download
 
-Both versions of NOOBS allow additional Operating Systems to be downloaded from our remote repository. To do this, the Raspberry Pi must be connected to a wired network, or it can connect over Wifi using the [Raspberry Pi USB wifi dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/) or the Raspberry Pi 3 Model B built-in wifi. 
+Both versions of EFSCOIN allow additional Operating Systems to be downloaded from our remote repository. To do this, the Raspberry Pi must be connected to a wired network, or it can connect over Wifi using the [Raspberry Pi USB wifi dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/) or the Raspberry Pi 3 Model B built-in wifi. 
 
-Once connected, the Pi will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root NOOBS directory and append `showall` to the arguments list.
+Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root NOOBS directory and append `showall` to the arguments list.
 
 #### Wired Networks
 
@@ -60,7 +60,7 @@ If a wired ethernet cable is plugged into the Pi before NOOBS starts, NOOBS will
 
 #### Wifi Networks
 
-If you have the official [Raspberry Pi USB wifi Dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/), or are using the Raspberry Pi 3 Model B with built-in wifi, the wifi icon on the NOOBS toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
+If you have the official [EFSCOIN Efs USB wifi Dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/), or are using the Raspberry Pi 3 Model B with built-in wifi, the wifi icon on the NOOBS toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
 
 ![alt text](screenshots/wifi_selector.png "Select your wifi network and enter the password")
 
@@ -82,14 +82,14 @@ Simply select the checkbox next to each OS you want to install using either a mo
 
 ![alt text](screenshots/os_selected.png "Select your choice of OSes to install")
 
-<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your Raspberry Pi model and the availability of OSes on our remote download repository.</sup>
+<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
 
 #### Online Help via Web Browser
 
-The built-in Arora web browser allows you to easily get help via the Raspberry Pi Forums (wired network connection required).
+The built-in Arora web browser allows you to easily get help via the EFSCOIN Efs Forums (wired network connection required).
 
-![alt text](screenshots/browser.png "Search the Raspberry Pi forums for help via the built-in web browser")
+![alt text](screenshots/browser.png "Search the EFSCOIN Efs forums for help via the built-in web browser")
 
 #### Easy Config File Editor
 
