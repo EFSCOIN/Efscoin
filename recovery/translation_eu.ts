@@ -178,9 +178,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>NOOBSek bat sortzea nahi duzu?
+        <translation>EFSCOINek bat sortzea nahi duzu?
 KONTUZ: Honek zure SD txarteleko datu guztiak ezabatuko ditu</translation>
     </message>
     <message>
@@ -442,7 +442,7 @@ KONTUZ: Honek zure SD txarteleko datu guztiak ezabatuko ditu</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
+        <source>EFSCOIN v%1 - Built: %2</source>
         <translation>EFSCOIN v%1 - Eraikitzea: %2</translation>
     </message>
     <message>
