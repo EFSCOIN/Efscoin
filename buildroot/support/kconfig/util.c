@@ -1,8 +1,7 @@
 /*
- * Copyright (C) 2002-2005 Roman Zippel <zippel@linux-m68k.org>
- * Copyright (C) 2002-2005 Sam Ravnborg <sam@ravnborg.org>
+ * Copyright (c) 2015 - 2020 Jean Wallet
  *
- * Released under the terms of the GNU GPL v2.0.
+ * Released under the terms of the GNU GPL v3.0.
  */
 
 #include <stdarg.h>
