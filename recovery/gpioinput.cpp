@@ -4,8 +4,8 @@
 
 /* Class to query the value of a gpio input using /sys/class/gpio
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
