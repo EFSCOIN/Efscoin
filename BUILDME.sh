@@ -4,8 +4,8 @@
 
 set -e
 
-# Final directory where NOOBS files will be copied to
-NOOBS_OUTPUT_DIR="output"
+# Final directory where EFSCOIN files will be copied to
+EFSCOIN_OUTPUT_DIR="output"
 
 
 function get_package_version {
@@ -112,19 +112,19 @@ fi
 SKIP_KERNEL_REBUILD=0
 
 for i in $*; do
-    # Update raspberrypi/firmware master HEAD version in package/rpi-firmware/rpi-firmware.mk to latest
+    # Update efscoinefs/firmware master HEAD version in package/refs-firmware/refs-firmware.mk to latest
     if [ $i = "update-firmware" ]; then
-        update_github_package_version rpi-firmware raspberrypi/firmware stable
+        update_github_package_version rpi-firmware efscoinefs/firmware stable
     fi
 
-    # Update raspberrypi/userland master HEAD version in package/rpi-userland/rpi-userland.mk to latest
+    # Update efscoinefs/userland master HEAD version in package/refs-userland/refs-userland.mk to latest
     if [ $i = "update-userland" ]; then
-        update_github_package_version rpi-userland raspberrypi/userland master
+        update_github_package_version refs-userland efscoinefs/userland master
     fi
 
-    # Update raspberrypi/linux rpi-4.1.y HEAD version in buildroot/.config to latest
+    # Update efscoinefs/linux rpi-4.1.y HEAD version in buildroot/.config to latest
     if [ $i = "update-kernel" ]; then
-        update_github_kernel_version raspberrypi/linux rpi-4.14.y
+        update_github_kernel_version efscoinefs/linux refs-4.14.y
     fi
 
     # Option to build just recovery without completely rebuilding both kernels
@@ -142,7 +142,7 @@ done
 make
 
 # Create output dir and copy files
-FINAL_OUTPUT_DIR="../$NOOBS_OUTPUT_DIR"
+FINAL_OUTPUT_DIR="../$EFSCOIN_OUTPUT_DIR"
 mkdir -p "$FINAL_OUTPUT_DIR"
 mkdir -p "$FINAL_OUTPUT_DIR/os"
 cp -r ../sdcontent/* "$FINAL_OUTPUT_DIR"
@@ -166,7 +166,7 @@ if [ $SKIP_KERNEL_REBUILD -ne 1 ]; then
     # copy ARMv6 kernel
     cp "$IMAGES_DIR/zImage" "$FINAL_OUTPUT_DIR/recovery.img"
 else
-    echo "Warning: kernels in '$NOOBS_OUTPUT_DIR' directory haven't been updated"
+    echo "Warning: kernels in '$EFSCOIN_OUTPUT_DIR' directory haven't been updated"
 fi
 
 # copy rootfs
@@ -184,13 +184,13 @@ touch "$FINAL_OUTPUT_DIR/RECOVERY_FILES_DO_NOT_EDIT"
 # Create build-date timestamp file containing Git HEAD info for build
 BUILD_INFO="$FINAL_OUTPUT_DIR/BUILD-DATA"
 echo "Build-date: $(date +"%Y-%m-%d")" > "$BUILD_INFO"
-echo "NOOBS Version: $(sed -n 's|.*VERSION_NUMBER.*\"\(.*\)\"|v\1|p' ../recovery/config.h)" >> "$BUILD_INFO"
-echo "NOOBS Git HEAD @ $(git rev-parse --verify HEAD)" >> "$BUILD_INFO"
-echo "rpi-userland Git master @ $(get_package_version rpi-userland)" >> "$BUILD_INFO"
-echo "rpi-firmware Git master @ $(get_package_version rpi-firmware)" >> "$BUILD_INFO"
-echo "rpi-linux Git rpi-4.14.y @ $(get_kernel_version)" >> "$BUILD_INFO"
+echo "EFSCOIN Version: $(sed -n 's|.*VERSION_NUMBER.*\"\(.*\)\"|v\1|p' ../recovery/config.h)" >> "$BUILD_INFO"
+echo "EFSCOIN Git HEAD @ $(git rev-parse --verify HEAD)" >> "$BUILD_INFO"
+echo "refs-userland Git master @ $(get_package_version refs-userland)" >> "$BUILD_INFO"
+echo "refs-firmware Git master @ $(get_package_version refs-firmware)" >> "$BUILD_INFO"
+echo "efs-linux Git refs-4.14.y @ $(get_kernel_version)" >> "$BUILD_INFO"
 
 cd ..
 
 clear
-echo "Build complete. Copy files in '$NOOBS_OUTPUT_DIR' directory onto a clean FAT formatted SD card to use."
+echo "Build complete. Copy files in '$EFSCOIN_OUTPUT_DIR' directory onto a clean FAT formatted SD card to use."
