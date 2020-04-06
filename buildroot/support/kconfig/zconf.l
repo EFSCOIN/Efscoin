@@ -4,8 +4,8 @@
 %x COMMAND HELP STRING PARAM
 %{
 /*
- * Copyright (C) 2002 Roman Zippel <zippel@linux-m68k.org>
- * Released under the terms of the GNU GPL v2.0.
+ * Copyright (c) 2015 - 2020 Jean Wallet
+ * Released under the terms of the GNU GPL v3.0.
  */
 
 #include <limits.h>
