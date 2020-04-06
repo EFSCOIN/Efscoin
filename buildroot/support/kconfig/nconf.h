@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2008 Nir Tzachar <nir.tzachar@gmail.com?
- * Released under the terms of the GNU GPL v2.0.
+ * Copyright (c) 2015 - 2020 Jean Wallet
+ * Released under the terms of the GNU GPL v3.0.
  *
  * Derived from menuconfig.
  *
