@@ -320,7 +320,7 @@ Achtung: Dies löscht alle Ihre Daten auf der SD-Karte</translation>
     <message>
         <location filename="mainwindow.ui" line="221"/>
         <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Öffnet das Raspberry Pi Forum in einem Browser.</translation>
+        <translation>Öffnet das EFSCOIN Efs Forum in einem Browser.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -403,7 +403,7 @@ Achtung: Dies löscht alle Ihre Daten auf der SD-Karte</translation>
         <translation>Darstellungsmodus geändert</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="738"/>
+        <location filename="mainwindow.cpp" line="738"/> 
         <source>HDMI preferred mode</source>
         <translation>HDMI-Modus (normal)</translation>
     </message>
