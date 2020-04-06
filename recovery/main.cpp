@@ -29,8 +29,8 @@
 
 /*
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
@@ -262,10 +262,10 @@ int main(int argc, char *argv[])
     }
     if (!driveReady)
     {
-        QMessageBox::critical(NULL, "Files not found", QString("Cannot find the drive with NOOBS files %1").arg(drive), QMessageBox::Close);
+        QMessageBox::critical(NULL, "Files not found", QString("Cannot find the drive with EFSCOIN files %1").arg(drive), QMessageBox::Close);
         return 1;
     }
-    qDebug() << "NOOBS drive:" << drive;
+    qDebug() << "EFSCOIN drive:" << drive;
 
     // If -runinstaller is not specified, only continue if SHIFT is pressed, GPIO is triggered,
     // or no OS is installed (/settings/installed_os.json does not exist)
