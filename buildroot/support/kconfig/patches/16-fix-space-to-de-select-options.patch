@@ -1,6 +1,6 @@
 commit 6faa447282fe90d42e0513af46c13f20b4b327d4
 Author: Yann E. MORIN <yann.morin.1998@free.fr>
-Date:   Wed Nov 13 22:45:02 2013 +0100
+Date:   Wed Nov 13 22:45:02 2015 +0100
 
     support/kconfig: fix 'space' to (de)select options
     
