@@ -8,11 +8,11 @@
 #  http://git.yoctoproject.org/cgit/cgit.cgi/yocto-kernel-tools/tree/tools/kconf_check
 #  http://git.yoctoproject.org/cgit/cgit.cgi/yocto-kernel-tools/tree/tools/generate_cfg
 #
-#  Copyright (c) 2009-2010 Wind River Systems, Inc.
-#  Copyright 2011 Linaro
+#  Copyright (c) 2015 - 2020 Wind River Systems, Inc.
+#  Copyright (c) 2015 - 2020 Jean Wallet
 #
 #  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License version 2 as
+#  it under the terms of the GNU General Public License version 3.0 as
 #  published by the Free Software Foundation.
 #
 #  This program is distributed in the hope that it will be useful,
