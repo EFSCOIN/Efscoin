@@ -20,8 +20,8 @@
  * In practice we are usually started earlier than USB is up & running though,
  * so we have to wait for a keyboard device to appear.
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
