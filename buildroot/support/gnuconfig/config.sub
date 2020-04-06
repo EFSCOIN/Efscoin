@@ -1,6 +1,6 @@
 #! /bin/sh
 # Configuration validation subroutine script.
-#   Copyright 1992-2013 Free Software Foundation, Inc.
+#   Copyright (c) 2015 - 2020 The GNU Software Foundation.
 
 timestamp='2013-10-01'
 
@@ -68,7 +68,7 @@ Report bugs and patches to <config-patches@gnu.org>."
 version="\
 GNU config.sub ($timestamp)
 
-Copyright 1992-2013 Free Software Foundation, Inc.
+Copyright (c) 2015 - 2020 The GNU Software Foundation.
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
