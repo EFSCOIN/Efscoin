@@ -1,7 +1,7 @@
 /* Language selection dialog
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
