@@ -319,8 +319,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Открыть веб браузер и показать форум Raspberry Pi.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>Открыть веб браузер и показать форум EFSCOIN Efs.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -515,7 +515,7 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
