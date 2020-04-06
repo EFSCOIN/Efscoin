@@ -3,7 +3,7 @@
 # patch source trees and have sane error handling
 # -Erik
 #
-# (c) 2002 Erik Andersen <andersen@codepoet.org>
+# Copyright (c) 2015 - 2020 Jean Wallet
 #
 # Parameters:
 # - "-s", optional. Silent operation, don't print anything if there
