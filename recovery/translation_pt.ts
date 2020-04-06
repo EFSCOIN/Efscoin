@@ -96,9 +96,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>Gostaria que o NOOBS crie um para você?
+        <translation>Gostaria que o EFSCOIN crie um para você?
 AVISO: Isto irá apagar todos os dados do seu cartão SD</translation>
     </message>
     <message>
@@ -118,8 +118,8 @@ AVISO: Isto irá apagar todos os dados do seu cartão SD</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>O cartão SD foi formatado e está pronto para a instalação do NOOBS. Por favor, copie os arquivos do NOOBS novamente para o cartão e reinicie</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>O cartão SD foi formatado e está pronto para a instalação do EFSCOIN. Por favor, copie os arquivos do EFSCOIN novamente para o cartão e reinicie</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -319,8 +319,8 @@ AVISO: Isto irá apagar todos os dados do seu cartão SD</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Abre o navegador para acessar o fórum do Raspberry Pi.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>Abre o navegador para acessar o fórum do EFSCOIN Efs.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -352,8 +352,8 @@ AVISO: Isto irá apagar todos os dados do seu cartão SD</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - Built: %2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - Built: %2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="98"/>
@@ -419,8 +419,8 @@ AVISO: Isto irá apagar todos os dados do seu cartão SD</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>Por favor, aguarde a inicialização do NOOBS</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>Por favor, aguarde a inicialização do EFSCOIN</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -434,8 +434,8 @@ AVISO: Isto irá apagar todos os dados do seu cartão SD</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
-        <translation>Aviso: Sistema Operacional incompatível detectado. Os seguintes sistemas não são suportados nesta revisão do Raspberry Pi e a inicialização pode falhar ou funcionar corretamente:</translation>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
+        <translation>Aviso: Sistema Operacional incompatível detectado. Os seguintes sistemas não são suportados nesta revisão do EFSCOIN Efs e a inicialização pode falhar ou funcionar corretamente:</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="655"/>
@@ -520,8 +520,8 @@ Deseja tornar esta configuração permanente?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>O acesso à rede é necessário para usar o NOOBS sem imagens locais. Por favor, conecte o cabo de rede na porta de rede.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>O acesso à rede é necessário para usar o EFSCOIN sem imagens locais. Por favor, conecte o cabo de rede na porta de rede.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -530,8 +530,8 @@ Deseja tornar esta configuração permanente?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
-        <translation>Tem certeza de que deseja reformatar a unidade &apos;%1&apos; para uso com o NOOBS? Todos os dados existentes na unidade serão excluídos!</translation>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
+        <translation>Tem certeza de que deseja reformatar a unidade &apos;%1&apos; para uso com o EFSCOIN? Todos os dados existentes na unidade serão excluídos!</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="925"/>
