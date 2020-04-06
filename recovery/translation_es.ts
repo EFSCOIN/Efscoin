@@ -319,8 +319,8 @@ ADVERTENCIA: Esto borrará todos los datos de tu tarjeta SD</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Abre un navegador mostrando el foro de Raspberry Pi.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>Abre un navegador mostrando el foro de EFSCOIN Efs.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -529,7 +529,7 @@ Te gustaría que este cambio fuera permanente?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
         <translation>Es necesario tener acceso a internet para usar EFSCOIN sin imágenes locales. Por favor, inserta un cable de red en el puerto de red.</translation>
     </message>
     <message>
