@@ -1,14 +1,14 @@
 # EFSCOIN 
 
-### An easy Operating System installer for the EFSCOIN Efs
+### An easy and simple Operating System installer for the EFSCOIN Efs
 
-EFSCOIN is designed to make it easy to select and install operating systems for the EFSCOIN Efs without having to worry about manually imaging your SD card.
+EFSCOIN is designed to make it simple and easy to select and install operating systems for the EFSCOIN Efs without having to worry about manually imaging your SD card.
 
 The latest official release of EFSCOIN can be [downloaded from](https://github.com/efscoin/efscoin).
 
 For information on previous releases and version changelists, [visit](https://github.com/efscoin/efscoin/releases).
 
-![alt text](screenshots/os_installed.png "EFSCOIN Interface")
+Screenshot example: ![alt text](screenshots/os_installed.png "EFSCOIN Interface")
 
 <sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
@@ -28,7 +28,7 @@ The EFSCOIN interface provides the following functionality:
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
 - <b>Display Mode Selection</b>: By default, EFSCOIN will output over HDMI at your display's preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
-Note that all user settings (language, keyboard layout, display mode) will persist between reboots and will also be automatically passed to the installed OSes. This means that if you can see the NOOBS interface on your display device then you should be able to see the OS CLI/GUI when it boots too!
+Note that all user settings (language, keyboard layout, display mode) will persist between reboots and will also be automatically passed to the installed OSes. This means that if you can see the EFSCOIN interface on your display device then you should be able to see the OS CLI/GUI when it boots too!
 ### Setup
 
 To set up a blank SD card with EFSCOIN:
@@ -43,7 +43,7 @@ On first boot the "RECOVERY" FAT partition will be automatically resized to a mi
 
 EFSCOIN is available in 2 formats:
 - `EFSCOIN Full` includes the installation files for EFSCOIN Full and LibreELEC only.
-- `EFSCOIN-Lite` does not include any Operating Systems at all.
+- `EFSCOIN Lite` does not include any Operating Systems at all.
 
 Please note that RISC OS cannot be installed by the EFSCOIN FULL version due to the amount of space taken up by the included Operating Systems.
 
@@ -63,7 +63,7 @@ If a wired ethernet cable is plugged into the Efs before EFSCOIN starts, EFSCOIN
 
 If you have the official [EFSCOIN Efs USB wifi](https://github.com/efscoin/efscoin/usb-wifi/), or are using the EFSCOIN Efs Model with built-in wifi, the wifi icon on the EFSCOIN toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
 
-![alt text](screenshots/wifi_selector.png "Select your wifi network and enter the password")
+Screenshot example: ![alt text](screenshots/wifi_selector.png "Select your wifi network and enter the password")
 
 ### How to Format an SD card as FAT
 
@@ -71,7 +71,7 @@ For <b>Windows</b> users, we recommend formatting your SD card using the SD Asso
 
 The SD Association's Formatting Tool is also available for <b>Mac</b> users although the default OSX Disk Utility is also capable of formatting the entire disk (select the SD card volume and choose "Erase" with "MS-DOS" format).
 
-For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for [Linux users](http://qdosmsq.dunbar-it.co.uk/blog/2013/06/efscoin-for-efscoin-efs/)
+For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for [Linux users](http://qdosmsq.dunbar-it.co.uk/blog/2013/06/efscoin-for-efscoin-efs/).
 
 ===
 
