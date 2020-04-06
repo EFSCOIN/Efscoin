@@ -1,6 +1,6 @@
 diff -u -r a/net/wireless/db.txt b/net/wireless/db.txt
---- a/net/wireless/db.txt	2017-02-20 12:28:41.000000000 +0000
-+++ b/net/wireless/db.txt	2017-03-03 14:49:10.430281862 +0000
+--- a/net/wireless/db.txt	2019-02-20 12:28:41.000000000 +0000
++++ b/net/wireless/db.txt	2019-03-03 14:49:10.430281862 +0000
 @@ -1,17 +1,1306 @@
 +# This is the world regulatory domain
 +country 00:
