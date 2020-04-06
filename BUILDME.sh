@@ -114,7 +114,7 @@ SKIP_KERNEL_REBUILD=0
 for i in $*; do
     # Update efscoinefs/firmware master HEAD version in package/refs-firmware/refs-firmware.mk to latest
     if [ $i = "update-firmware" ]; then
-        update_github_package_version rpi-firmware efscoinefs/firmware stable
+        update_github_package_version refs-firmware efscoinefs/firmware stable
     fi
 
     # Update efscoinefs/userland master HEAD version in package/refs-userland/refs-userland.mk to latest
@@ -174,9 +174,9 @@ cp "$IMAGES_DIR/rootfs.squashfs" "$FINAL_OUTPUT_DIR/recovery.rfs"
 #cp "$IMAGES_DIR/rootfs.cpio.lzo" "$FINAL_OUTPUT_DIR/recovery.rfs"
 
 # Ensure that final output dir contains files necessary to boot
-cp "$IMAGES_DIR/rpi-firmware/start.elf" "$FINAL_OUTPUT_DIR/recovery.elf"
-cp "$IMAGES_DIR/rpi-firmware/start4.elf" "$FINAL_OUTPUT_DIR/recover4.elf"
-cp "$IMAGES_DIR/rpi-firmware/bootcode.bin" "$FINAL_OUTPUT_DIR"
+cp "$IMAGES_DIR/refs-firmware/start.elf" "$FINAL_OUTPUT_DIR/recovery.elf"
+cp "$IMAGES_DIR/refs-firmware/start4.elf" "$FINAL_OUTPUT_DIR/recover4.elf"
+cp "$IMAGES_DIR/refs-firmware/bootcode.bin" "$FINAL_OUTPUT_DIR"
 cp -a $IMAGES_DIR/*.dtb "$IMAGES_DIR/overlays" "$FINAL_OUTPUT_DIR"
 cp "$IMAGES_DIR/cmdline.txt" "$FINAL_OUTPUT_DIR/recovery.cmdline"
 touch "$FINAL_OUTPUT_DIR/RECOVERY_FILES_DO_NOT_EDIT"
