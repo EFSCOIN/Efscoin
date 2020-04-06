@@ -1,28 +1,28 @@
 # EFSCOIN 
 
-### An easy Operating System installer for the Raspberry Pi
+### An easy Operating System installer for the EFSCOIN Efs
 
-EFSCOIN is designed to make it easy to select and install operating systems for the Raspberry Pi without having to worry about manually imaging your SD card.
+EFSCOIN is designed to make it easy to select and install operating systems for the EFSCOIN Efs without having to worry about manually imaging your SD card.
 
-The latest official release of EFSCOIN can be downloaded from http://downloads.raspberrypi.org/NOOBS_latest
+The latest official release of EFSCOIN can be downloaded from https://github.com/efscoin/efscoin.
 
-For information on previous releases and version changelists, visit https://github.com/raspberrypi/noobs/releases
+For information on previous releases and version changelists, visit https://github.com/efscoin/efscoin/releases
 
-![alt text](screenshots/os_installed.png "NOOBS Interface")
+![alt text](screenshots/os_installed.png "EFSCOIN Interface")
 
-<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your Raspberry Pi model and the availability of OSes on our remote download repository.</sup>
+<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
 ### About
 On first boot EFSCOIN will repartition your SD card and allow you to select which OSes you want to install from a list. This OS list is automatically generated from both locally available OSes (i.e. those contained in the `/os` directory on disk) or those available from our remote repository (network connection required).
 
 Only the latest version of each OS will ever be displayed meaning that you can be sure that you have installed the most up-to-date release of your selected OS.
 
-On any subsequent boot you can then press the SHIFT key to enter the NOOBS interface and easily reinstall your choice of OSes.
+On any subsequent boot you can then press the SHIFT key to enter the EFSCOIN interface and easily reinstall your choice of OSes.
 
 The EFSCOIN interface provides the following functionality:
 - <b>Install</b>: Installs the selected OSes onto your SD card. Changing this selection erases all OSes currently installed.
 - <b>Edit Config</b>: Opens a text editor allowing the cmdline and config for the selected installed OS to be edited.
-- <b>Online Help</b>: [Networking Required] Open a browser that displays the Raspberry Pi Help page ( http://www.raspberrypi.org/help/ ), allowing people to quickly access help and troubleshooting.
+- <b>Online Help</b>: [Networking Required] Open a browser that displays the EFSCOIN Efs Help page ( https://gitter.im/efsco/), allowing people to quickly access help and troubleshooting.
 - <b>Exit</b>: Quits EFSCOIN and reboots the Efs into the OS boot menu.
 - <b>Language Selection</b>: Allows you to select the language to be displayed.
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
@@ -42,7 +42,7 @@ On first boot the "RECOVERY" FAT partition will be automatically resized to a mi
 ### Operating System Choice
 
 EFSCOIN is available in 2 formats:
-- `EFSCOIN Full` includes the installation files for Raspbian Full and LibreELEC only.
+- `EFSCOIN Full` includes the installation files for EFSCOIN Full and LibreELEC only.
 - `EFSCOIN-Lite` does not include any Operating Systems at all.
 
 Please note that RISC OS cannot be installed by the EFSCOIN FULL version due to the amount of space taken up by the included Operating Systems.
@@ -53,25 +53,25 @@ If you want to install RISC OS, use EFSCOIN-Lite instead, or change the included
 
 Both versions of EFSCOIN allow additional Operating Systems to be downloaded from our remote repository. To do this, the EFSCOIN Efs must be connected to a wired network, or it can connect over Wifi using the [EFSCOIN Efs USB wifi dongle](https://github.com/products/usb-wifi-dongle/) or the EFSCOIN Efs Model B built-in wifi. 
 
-Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root EFSCOIN directory and append `showall` to the arguments list.
+Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Efs Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root EFSCOIN directory and append `showall` to the arguments list.
 
 #### Wired Networks
 
-If a wired ethernet cable is plugged into the Efs before NOOBS starts, NOOBS will connect via DHCP to our remote download repository and present a list of available Operating Systems that are available for installation.
+If a wired ethernet cable is plugged into the Efs before EFSCOIN starts, EFSCOIN will connect via DHCP to our remote download repository and present a list of available Operating Systems that are available for installation.
 
 #### Wifi Networks
 
-If you have the official [EFSCOIN Efs USB wifi Dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/), or are using the Raspberry Pi 3 Model B with built-in wifi, the wifi icon on the NOOBS toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
+If you have the official [EFSCOIN Efs USB wifi](https://github.com/efscoin/usb-wifi/), or are using the EFSCOIN Efs Model B with built-in wifi, the wifi icon on the EFSCOIN toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
 
 ![alt text](screenshots/wifi_selector.png "Select your wifi network and enter the password")
 
 ### How to Format an SD card as FAT
 
-For <b>Windows</b> users, we recommend formatting your SD card using the SD Association's Formatting Tool, which can be downloaded from https://www.sdcard.org/downloads/formatter_4/ You will need to set "FORMAT SIZE ADJUSTMENT" option to "ON" in the "Options" menu to ensure that the entire SD card volume is formatted - not just a single partition. With the latest SD Association Formatting Tool (V5.0) that option has been removed and is now the default. For more detailed and beginner-friendly formatting instructions, please refer to http://www.raspberrypi.org/quick-start-guide
+For <b>Windows</b> users, we recommend formatting your SD card using the SD Association's Formatting Tool, which can be downloaded from https://www.sdcard.org/downloads/formatter_4/ You will need to set "FORMAT SIZE ADJUSTMENT" option to "ON" in the "Options" menu to ensure that the entire SD card volume is formatted - not just a single partition. With the latest SD Association Formatting Tool (V5.0) that option has been removed and is now the default. For more detailed and beginner-friendly formatting instructions, please refer to https://github.com/efscoin/efscoin/quick-start-guide
 
 The SD Association's Formatting Tool is also available for <b>Mac</b> users although the default OSX Disk Utility is also capable of formatting the entire disk (select the SD card volume and choose "Erase" with "MS-DOS" format).
 
-For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for Linux users: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/ )
+For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for Linux users: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/efscoin-for-efscoin-efs/ )
 
 ===
 
@@ -120,29 +120,29 @@ Note that if only one OS is installed then the boot selector will not be display
 
 ### How to Automatically Install an OS
 
-Even if you are using your Pi without a display, you can still use NOOBS to easily install an OS of your choice. To set up NOOBS to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
+Even if you are using your Efs without a display, you can still use EFSCOIN to easily install an OS of your choice. To set up EFSCOIN to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
 
 1. Copy the OS folder for the OS you want to install into the `/os` dir (or alternatively delete all other OSes contained in the `/os` dir so that only your chosen OS remains.
 
 2. If the OS you want to automatically install has multiple flavours available, edit the `flavours.json` file so that it only contains the flavour entry that you want to install.
 
-3. Edit the `recovery.cmdline` file in the root NOOBS directory and append `silentinstall` to the arguments list.
+3. Edit the `recovery.cmdline` file in the root EFSCOIN directory and append `silentinstall` to the arguments list.
 
-When you now boot your Pi using an SD card containing the modified version of NOOBS that you just created, it will automatically install the OS you chose and boot into it after the installation has finished.
+When you now boot your Efs using an SD card containing the modified version of EFSCOIN that you just created, it will automatically install the OS you chose and boot into it after the installation has finished.
 
 ### Preconfiguring a WiFi network
 
-If you already know your WiFi details, you can preconfigure NOOBS to use it straight away. Put a copy of your `wpa_supplicant.conf` file on the NOOBS root partition and NOOBS will read it and store it in its settings for all future uses.
+If you already know your WiFi details, you can preconfigure EFSCOIN to use it straight away. Put a copy of your `wpa_supplicant.conf` file on the EFSCOIN root partition and EFSCOIN will read it and store it in its settings for all future uses.
 
 ### How to create a custom OS version
 
-There are two main use cases for which you may want to create a custom version of one of the standard OS releases that is suitable for installation via NOOBS:
-- If you are a teacher wanting to easily deploy a custom OS release containing pre-defined set of packages and files onto a number of SD cards (e.g. to provision a class set of Raspberry Pi's or quickly restore a Raspberry Pi back to custom "factory" settings).
+There are two main use cases for which you may want to create a custom version of one of the standard OS releases that is suitable for installation via EFSCOIN:
+- If you are a teacher wanting to easily deploy a custom OS release containing pre-defined set of packages and files onto a number of SD cards (e.g. to provision a class set of EFSCOIN Efs or quickly restore a EFSCOIN Efs back to custom "factory" settings).
 - If you want to be able to back up your existing installed packages and files so that any future OS re-install does not force you back to a clean install.
 
 The following steps allow you to create a modified copy of one of the standard OS releases that contains your custom files, packages and settings.
 
-1. Download a base version of NOOBS from http://downloads.raspberrypi.org/NOOBS_latest
+1. Download a base version of EFSCOIN from http://github.com/efscoin/EFSCOIN.
 
 2. Extract the EFSCOIN zipfile
 
@@ -168,7 +168,7 @@ The following steps allow you to create a modified copy of one of the standard O
 
 ### How to change the default Language, Keyboard layout, Display mode or Boot Partition etc.
 
-Edit the `recovery.cmdline` file in the root NOOBS directory and append the following arguments where relevant:
+Edit the `recovery.cmdline` file in the root EFSCOIN directory and append the following arguments where relevant:
 - `lang=<two-letter language code>` (e.g. `lang=de` or `lang=en`)
 - `keyboard=<two-letter layout code>` (e.g. `keyboard=de` or `keyboard=us`)
 - `display=<display mode number>` (e.g. `display=1` or `display=3`)
@@ -185,12 +185,12 @@ After you have installed your chosen OSes, add the following file to the root di
 
 2. Add `boot_partition=<partition number>` to the file and save it to disk.
 
-This will also prevent the splashscreen from being displayed at boot. The partition number can be found by running `sudo fdisk -l` the partition will be one of the FAT32 partitions `/dev/mmcblk0p6` would be partition 6. Note that once an `autoboot.txt` file is present, there's then no way to force the NOOBS GUI to display, until you delete (or rename) the `autoboot.txt` file.
+This will also prevent the splashscreen from being displayed at boot. The partition number can be found by running `sudo fdisk -l` the partition will be one of the FAT32 partitions `/dev/mmcblk0p6` would be partition 6. Note that once an `autoboot.txt` file is present, there's then no way to force the EFSCOIN GUI to display, until you delete (or rename) the `autoboot.txt` file.
 
 ### How to use with the EFSCOIN Efs Touch Display
 
-If EFSCOIN detects you are using the [Raspberry Pi Touch Display](https://www.raspberrypi.org/products/efscoin-touch-display/), it will enable the following functionality:
-- A tap on the raspberry logo in the centre of the touchscreen can activate NOOBS, as well as holding the shift key down.
+If EFSCOIN detects you are using the [EFSCOIN Efs Touch Display](https://github.com/efscoin/efscoin/efscoin-touch-display/), it will enable the following functionality:
+- A tap on the raspberry logo in the centre of the touchscreen can activate EFSCOIN, as well as holding the shift key down.
 - A tap on the touchscreen will simulate a mouse click
 - A longpress on the touchscreen will simulate a mouse double-click.
 
@@ -204,17 +204,17 @@ Try pressing shift only when the grey splashscreen is displayed rather than hold
 
 ### How to boot into "Safe Mode"
 
-To boot into a basic busybox shell rather than launching the EGSCOIN GUI, you can *either*:
+To boot into a basic busybox shell rather than launching the EFSCOIN GUI, you can *either*:
 
-1. Append `rescueshell` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+1. Append `rescueshell` to the argument list in the `recovery.cmdline` file which is found in the root EFSCOIN directory.
 
-2. Insert a physical jumper between pins 5 & 6 of GPIO header P1. If you have external hardware or an addon board connected to the GPIO header, you may find that pin 5 is being pulled low and accidentally triggering "Safe Mode". To prevent this you can append `disablesafemode` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+2. Insert a physical jumper between pins 5 & 6 of GPIO header P1. If you have external hardware or an addon board connected to the GPIO header, you may find that pin 5 is being pulled low and accidentally triggering "Safe Mode". To prevent this you can append `disablesafemode` to the argument list in the `recovery.cmdline` file which is found in the root EFSCOIN directory.
 
 #### How to enable using the GPIO to trigger entering Recovery Mode
 
-To force Recovery Mode to be entered on boot and to show the EFSCOIN interface, you normally press the `SHIFT` key during bootup. If you don't have a keyboard or the `SHIFT` keypress isn't being detected, you should complete the following steps to force the NOOBS interface to be displayed on boot:
+To force Recovery Mode to be entered on boot and to show the EFSCOIN interface, you normally press the `SHIFT` key during bootup. If you don't have a keyboard or the `SHIFT` keypress isn't being detected, you should complete the following steps to force the EFSCOIN interface to be displayed on boot:
 
-1. Append `gpiotriggerenable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+1. Append `gpiotriggerenable` to the argument list in the `recovery.cmdline` file which is found in the root EFSCOIN directory.
 2. Reboot
 
 To force Recovery Mode being entered on boot, connect GPIO pin 3 on header P1 to GND (pin 25). If GPIO pin 3 remains unconnected then it will boot through to the installed OS as normal.
@@ -223,14 +223,14 @@ To force Recovery Mode being entered on boot, connect GPIO pin 3 on header P1 to
 
 Alternatively, if you are unable to use either the GPIO or keyboard to trigger entering Recovery Mode, you can:
 
-1. Append `forcetrigger` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+1. Append `forcetrigger` to the argument list in the `recovery.cmdline` file which is found in the root EFSCOIN directory.
 2. Reboot
 
-Note that with this option enabled, the Recovery Mode will be displayed <b>every</b> time you boot from your NOOBS card (until you edit `recovery.cmdline` again).
+Note that with this option enabled, the Recovery Mode will be displayed <b>every</b> time you boot from your EFSCOIN card (until you edit `recovery.cmdline` again).
 
 #### How to disable using the keyboard to trigger entering Recovery Mode
 
-In some rare cases, you may find that NOOBS incorrectly detects a `SHIFT` keypress from your keyboard regardless of the presence of user input. In such cases it may be helpful to disable using the keyboard to trigger Recovery Mode being entered.
+In some rare cases, you may find that EFSCOIN incorrectly detects a `SHIFT` keypress from your keyboard regardless of the presence of user input. In such cases it may be helpful to disable using the keyboard to trigger Recovery Mode being entered.
 
 To prevent a `SHIFT` keypress from entering Recovery Mode on boot (maybe you have a problematic keyboard which is erroneously triggering every time you boot), you can:
 
@@ -241,7 +241,7 @@ To prevent a `SHIFT` keypress from entering Recovery Mode on boot (maybe you hav
 
 By default, EFSCOIN will output over HDMI at your display’s preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
-If you don't have a keyboard, you can still change the display mode used by EFSCOIN through editing the `recovery.cmdline` file in the root NOOBS directory prior to first boot and appending the following argument:
+If you don't have a keyboard, you can still change the display mode used by EFSCOIN through editing the `recovery.cmdline` file in the root EFSCOIN directory prior to first boot and appending the following argument:
 - `display=<display mode number>` (e.g. `display=1` or `display=3`)
 
 ===
@@ -273,9 +273,9 @@ If your build machine also has some QT5 components, it is useful to `export QT_S
 
 ## How to run your Build
 
-In order to setup an SD card with a newly built version of NOOBS, you will need to:
+In order to setup an SD card with a newly built version of EFSCOIN, you will need to:
 - Format an SD card that is 8GB or greater in size as FAT32
-- Replace the `/os` directory in `/output` with the copy contained in the release version of NOOBS (see above for download links)
+- Replace the `/os` directory in `/output` with the copy contained in the release version of EFSCOIN (see above for download links)
 - Copy the files in the `/output` directory onto the SD card
 
 ## About the Buildroot infrastructure
@@ -296,7 +296,7 @@ Main differences with bcmrpi_defconfig:
 ## Modifying Qt source
 
 Source is in the `recovery` folder.
-Be aware that user interface screens will appear larger in Qt Creator then when deployed on the Pi, can
+Be aware that user interface screens will appear larger in Qt Creator then when deployed on the Efs, can
 raise font sizes 2 points to compensate.
 
 Several constants can be changed in `config.h`
@@ -336,7 +336,7 @@ To add a new translation:
 
 ### Legal compliance
 
-Copyright (c) 2013, Raspberry Pi
+Copyright (c) 2019 - 2020 EFSCOIN Efs
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
