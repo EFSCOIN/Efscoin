@@ -3,8 +3,8 @@
  * Double clicks are hard to do on touch devices as the system does
  * not considers a double tap a double click if the position is not the same.
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
