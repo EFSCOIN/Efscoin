@@ -352,8 +352,8 @@ UWAGA: To usunie wszystkie dane zapisane na karcie SD</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - Zbudowany: %2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - Zbudowany: %2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="98"/>
