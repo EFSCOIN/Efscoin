@@ -96,9 +96,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>NOOBS sizin yerinize oluştursun mu?
+        <translation>EFSCOIN sizin yerinize oluştursun mu?
 UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
@@ -118,8 +118,8 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>SD kart biçimlendirildi ve NOOBS kurulumuna hazır. Lütfen NOOBS dosyalarını karta tekrar yükleyin ve yeniden başlatın</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>SD kart biçimlendirildi ve EFSCOIN kurulumuna hazır. Lütfen EFSCOIN dosyalarını karta tekrar yükleyin ve yeniden başlatın</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -319,8 +319,8 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Raspberry Pi Forumlarını bir web tarayıcıda görüntüler.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>EFSCOIN Efs Forumlarını bir web tarayıcıda görüntüler.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -352,8 +352,8 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - Yapı: %2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - Yapı: %2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="98"/>
@@ -418,8 +418,8 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>NOOBS açılırken lütfen bekleyin</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>EFSCOIN açılırken lütfen bekleyin</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -433,8 +433,8 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
-        <translation>Uyarı: uyumsuz İşletim Sistemleri tespit edildi. Bu işletim sistemi mevcut Raspberry Pi revizyonunda desteklenemez ve açılışta ya da çalışırken hatalar oluşabilir</translation>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
+        <translation>Uyarı: uyumsuz İşletim Sistemleri tespit edildi. Bu işletim sistemi mevcut EFSCOIN Efs revizyonunda desteklenemez ve açılışta ya da çalışırken hatalar oluşabilir</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="655"/>
@@ -507,13 +507,13 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
-        <translation>NOOBS&apos;u yerel imajlar haricinde kullanabilmek için ağa erişimi olması gereklidir. Lütfen sonraki ekranda wifi ağınızı seçin.</translation>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
+        <translation>EFSCOIN&apos;u yerel imajlar haricinde kullanabilmek için ağa erişimi olması gereklidir. Lütfen sonraki ekranda wifi ağınızı seçin.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>NOOBS&apos;u yerel imajlar haricinde kullanabilmek için yerel ağa erişimi olması gereklidir. Lütfen ağ kablosunu ağ portuna takın.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>EFSCOIN&apos;u yerel imajlar haricinde kullanabilmek için yerel ağa erişimi olması gereklidir. Lütfen ağ kablosunu ağ portuna takın.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -522,8 +522,8 @@ UYARI: Bu işlem SD kartınızdaki tüm verileri silecektir</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
-        <translation>NOOBS ile kullanmak için &apos;%1&apos; sürücüsünü yeniden biçimlendirmek ister misiniz? Sürücünüzdeki mevcut veriler silinecektir!</translation>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
+        <translation>EFSCOIN ile kullanmak için &apos;%1&apos; sürücüsünü yeniden biçimlendirmek ister misiniz? Sürücünüzdeki mevcut veriler silinecektir!</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="925"/>
