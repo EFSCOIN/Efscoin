@@ -118,8 +118,8 @@ FIGYELEM: ez letörli az SD kártyát lévő összes adatot</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>Az SD kártya meg lett formázva a NOOBS telepítéshez. Kérlek, másold rá a NOOBS fájlokat újra a kártyára, és indítsd újra a rendszert</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>Az SD kártya meg lett formázva a EFSCOIN telepítéshez. Kérlek, másold rá a EFSCOIN fájlokat újra a kártyára, és indítsd újra a rendszert</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -352,8 +352,8 @@ FIGYELEM: ez letörli az SD kártyát lévő összes adatot</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - Kiadva: %2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - Kiadva: %2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="98"/>
@@ -419,8 +419,8 @@ FIGYELEM: ez letörli az SD kártyát lévő összes adatot</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>Kérlek várj, amíg a NOOBS elindul</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>Kérlek várj, amíg a EFSCOIN elindul</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -434,7 +434,7 @@ FIGYELEM: ez letörli az SD kártyát lévő összes adatot</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -515,13 +515,13 @@ El szeretnéd menteni ezt a beállítást?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>Vezetékes hálózati kapcsolat szükséges a NOOBS helyi lemezképfájlok nélküli használatához. Kérlek, csatlakoztasd a Pi-t az internethez.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>Vezetékes hálózati kapcsolat szükséges a EFSCOIN helyi lemezképfájlok nélküli használatához. Kérlek, csatlakoztasd a Efs-t az internethez.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
