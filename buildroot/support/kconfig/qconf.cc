@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 - 2030 Jean Wallet
+ * Copyright (c) 2015 - 2020 Jean Wallet
  * Released under the terms of the GNU GPL v3.0.
  */
 
