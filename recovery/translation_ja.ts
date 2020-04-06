@@ -96,9 +96,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>NOOBSでMBRを作成しますか？
+        <translation>EFSCOINでMBRを作成しますか？
 警告：この操作を行うとSDカードのデータはすべて消去されます。</translation>
     </message>
     <message>
@@ -118,8 +118,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>SDカードは,NOOBSインストールのためのフォーマットが終わりました.もう一度NOOBSのファイルをSDカードにコピーして再起動してください.</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>SDカードは,EFSCOINインストールのためのフォーマットが終わりました.もう一度EFSCOINのファイルをSDカードにコピーして再起動してください.</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -295,7 +295,7 @@ WARNING: This will erase all data on your SD card</source>
     <message>
         <location filename="mainwindow.ui" line="176"/>
         <source>Exits and boots the installed operating system.</source>
-        <translation>NOOBSを終了して,インストールしたオペレーティングシステムを起動します.</translation>
+        <translation>EFSCOINを終了して,インストールしたオペレーティングシステムを起動します.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="191"/>
@@ -319,8 +319,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>ブラウザを開いてRaspberry Pi フォーラムを表示します.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>ブラウザを開いてEFSCOIN Efs フォーラムを表示します.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -352,8 +352,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - Built: %2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - Built: %2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="98"/>
@@ -419,8 +419,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>NOOBSの初期化が完了するまでお待ちください</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>EFSCOINの初期化が完了するまでお待ちください</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -434,7 +434,7 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -515,13 +515,13 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>ローカルイメージ以外でNOOBSを利用するには有線ネットワークが必要です.ネットワークケーブルを接続してください.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>ローカルイメージ以外でEFSCOINを利用するには有線ネットワークが必要です.ネットワークケーブルを接続してください.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -530,7 +530,7 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
