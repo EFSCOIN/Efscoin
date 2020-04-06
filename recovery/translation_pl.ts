@@ -419,8 +419,8 @@ UWAGA: To usunie wszystkie dane zapisane na karcie SD</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>Proszę czekać na uruchomienie NOOBS</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>Proszę czekać na uruchomienie EFSCOIN</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -515,7 +515,7 @@ Czy chcesz zachować te ustawienia?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
