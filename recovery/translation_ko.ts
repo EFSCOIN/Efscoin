@@ -420,8 +420,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>NOOBS를 초기화하고 있습니다. 잠시만 기다려 주십시요.</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>EFSCOIN를 초기화하고 있습니다. 잠시만 기다려 주십시요.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
