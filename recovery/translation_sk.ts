@@ -129,9 +129,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>Chcete aby ho inštalátor NOOBS vytvoril?
+        <translation>Chcete aby ho inštalátor EFSCOIN vytvoril?
 UPOZORNENIE: Týmto sa vymažú všetky údaje na vašej SD karte</translation>
     </message>
     <message>
@@ -163,8 +163,8 @@ UPOZORNENIE: Týmto sa vymažú všetky údaje na vašej SD karte</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>SD karta bola teraz naformátovaná a je pripravená pre inštaláciu inštalátora NOOBS. Prosím, znovu skopírujte súbory inštalátora NOOBS na kartu a vykonajte reštart</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>SD karta bola teraz naformátovaná a je pripravená pre inštaláciu inštalátora EFSCOIN. Prosím, znovu skopírujte súbory inštalátora EFSCOIN na kartu a vykonajte reštart</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -319,8 +319,8 @@ UPOZORNENIE: Týmto sa vymažú všetky údaje na vašej SD karte</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Otvorí webový prehliadač na zobrazenie fóra Raspberry Pi.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>Otvorí webový prehliadač na zobrazenie fóra EFSCOIN Efs.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -374,8 +374,8 @@ UPOZORNENIE: Týmto sa vymažú všetky údaje na vašej SD karte</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>Prosím, čakajte, kým sa inštalátor NOOBS incializuje</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>Prosím, čakajte, kým sa inštalátor EFSCOIN incializuje</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="341"/>
@@ -412,8 +412,8 @@ UPOZORNENIE: Týmto sa vymažú všetky údaje na vašej SD karte</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
-        <translation>Upozornenie: boli zistené nekompatibilné operačné systémy. Nasledovné operačné systémy nie sú podporované touto verziou Raspberry Pi a nemusia byť spustené alebo pracovať správne:</translation>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
+        <translation>Upozornenie: boli zistené nekompatibilné operačné systémy. Nasledovné operačné systémy nie sú podporované touto verziou EFSCOIN Efs a nemusia byť spustené alebo pracovať správne:</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="655"/>
@@ -524,13 +524,13 @@ Chcete aby bolo toto nastavenie trvalé?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
-        <translation>Na použitie inštalátora NOOBS bez miestnych obrazov sa vyžaduje prístup k sieti. Prosím, vyberte vašu sieť wifi v ďalšej obrazovke.</translation>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
+        <translation>Na použitie inštalátora EFSCOIN bez miestnych obrazov sa vyžaduje prístup k sieti. Prosím, vyberte vašu sieť wifi v ďalšej obrazovke.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>Na použitie inštalátora NOOBS bez miestnych obrazov sa vyžaduje prístup k sieti. Prosím, pripojte sieťový kábel do sieťového portu.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>Na použitie inštalátora EFSCOIN bez miestnych obrazov sa vyžaduje prístup k sieti. Prosím, pripojte sieťový kábel do sieťového portu.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -539,8 +539,8 @@ Chcete aby bolo toto nastavenie trvalé?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
-        <translation>Naozaj chcete preformátovať jednotku „%1“ pre pužitie s inštalátorom NOOBS? Všetky existujúce údaje na jednotke budú odstránené!</translation>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
+        <translation>Naozaj chcete preformátovať jednotku „%1“ pre pužitie s inštalátorom EFSCOIN? Všetky existujúce údaje na jednotke budú odstránené!</translation>
     </message>
 </context>
 <context>
