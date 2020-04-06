@@ -118,8 +118,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>La carte SD a été formatée pour accueillir l&apos;installation de NOOBS. Merci de recopier les fichiers de NOOBS sur la carte SD et de redémarrer</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>La carte SD a été formatée pour accueillir l&apos;installation de EFSCOIN. Merci de recopier les fichiers de EFSCOIN sur la carte SD et de redémarrer</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -319,8 +319,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Ouvre un navigateur internet affichant le forum Raspberry Pi.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>Ouvre un navigateur internet affichant le forum EFSCOIN Efs.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -339,8 +339,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - Built: %2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - Built: %2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="98"/>
@@ -419,8 +419,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>Merci de patienter pendant l&apos;initialisation de NOOBS</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>Merci de patienter pendant l&apos;initialisation de EFSCOIN</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -434,8 +434,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
-        <translation>Attention: OS incompatible détecté. Les OS(es) suivant ne sont pas supportés sur cette version du raspberry pi et peuvent potentiellement ne pas démarrer ou fonctionner incorrectement</translation>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
+        <translation>Attention: OS incompatible détecté. Les OS(es) suivant ne sont pas supportés sur cette version du EFSCOIN Efs et peuvent potentiellement ne pas démarrer ou fonctionner incorrectement</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="655"/>
@@ -515,13 +515,13 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
-        <translation>Connexion réseau requise pour utiliser NOOBS sans images locales. Merci de sélectionner votre réseau wifi dans le prochain écran.</translation>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
+        <translation>Connexion réseau requise pour utiliser EFSCOIN sans images locales. Merci de sélectionner votre réseau wifi dans le prochain écran.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>Connexion filaire requise pour utiliser NOOBS sans images locales. Merci d&apos;insérer un cable réseau dans le port réseau.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>Connexion filaire requise pour utiliser EFSCOIN sans images locales. Merci d&apos;insérer un cable réseau dans le port réseau.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
