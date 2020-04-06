@@ -1,6 +1,6 @@
-From be8af2d54a66911693eddc556e4f7a866670082b Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Bj=C3=B8rn=20Forsman?= <bjorn.forsman@gmail.com>
-Date: Sun, 14 Sep 2014 12:57:50 +0200
+From be8af2d54a66911693eddc556e4f7a866670082b Mon Sep 17 00:00:00 2019
+From: =?UTF-8?q?Bj=C3=B8rn=20Forsman?= none
+Date: Sun, 14 Sep 2019 12:57:50 +0200
 Subject: [PATCH] kconfig/lxdialog: get ncurses CFLAGS with pkg-config
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
