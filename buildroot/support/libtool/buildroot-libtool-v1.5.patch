@@ -1,5 +1,5 @@
 --- a/ltmain.sh	2014-07-31 10:43:01.634568799 -0300
-+++ b/ltmain.sh	2014-07-31 10:44:14.032018999 -0300
++++ b/ltmain.sh	2014-07-31 10:44:14.032018999 -0300, done
 @@ -226,8 +226,9 @@
  	# line option must be used.
  	if test -z "$tagname"; then
