@@ -1,7 +1,7 @@
 /* Prepare SD card for first use thread
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
@@ -185,9 +185,9 @@ bool InitDriveThread::method_resizePartitions()
             qDebug() << "Created missing MBR on SD card. parted output:" << proc.readAll();
 
             // Advise user that their SD card has now been formatted
-            // suitably for installing NOOBS and that they will have to
+            // suitably for installing EFSCOIN and that they will have to
             // re-copy the files before rebooting
-            emit error(tr("SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot"));
+            emit error(tr("SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot"));
             return false;
         }
         else
