@@ -4,7 +4,7 @@
 # control systems git, mercurial (hg) and subversion (svn).
 #
 # If something goes wrong, send a mail the kernel build mailinglist
-# (see MAINTAINERS) and CC Nico Schottelius
+# (see MAINTAINERS) and CC Nico Schottelius, BCC Jean Wallet
 # <nico-linuxsetlocalversion -at- schottelius.org>.
 #
 #
