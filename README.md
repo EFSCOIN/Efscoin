@@ -22,7 +22,7 @@ On any subsequent boot you can then press the SHIFT key to enter the EFSCOIN int
 The EFSCOIN interface provides the following functionality:
 - <b>Install</b>: Installs the selected OSes onto your SD card. Changing this selection erases all OSes currently installed.
 - <b>Edit Config</b>: Opens a text editor allowing the cmdline and config for the selected installed OS to be edited.
-- <b>Online Help</b>: [Networking Required] Open a browser that displays the EFSCOIN Efs Help page ( https://gitter.im/efsco/), allowing people to quickly access help and troubleshooting.
+- <b>Online Help</b>: [Networking Required] Open a browser that displays the [EFSCOIN Efs Help page](https://gitter.im/efsco/), allowing people to quickly access help and troubleshooting.
 - <b>Exit</b>: Quits EFSCOIN and reboots the Efs into the OS boot menu.
 - <b>Language Selection</b>: Allows you to select the language to be displayed.
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
@@ -47,11 +47,11 @@ EFSCOIN is available in 2 formats:
 
 Please note that RISC OS cannot be installed by the EFSCOIN FULL version due to the amount of space taken up by the included Operating Systems.
 
-If you want to install RISC OS, use EFSCOIN-Lite instead, or change the included operating systems.
+If you want to install RISC OS, use EFSCOIN Lite instead, or change the included operating systems.
 
 #### OS Network Download
 
-Both versions of EFSCOIN allow additional Operating Systems to be downloaded from our remote repository. To do this, the EFSCOIN Efs must be connected to a wired network, or it can connect over Wifi using the [EFSCOIN Efs USB wifi dongle](https://github.com/products/usb-wifi-dongle/) or the EFSCOIN Efs Model B built-in wifi. 
+Both versions of EFSCOIN allow additional Operating Systems to be downloaded from our remote repository. To do this, the EFSCOIN Efs must be connected to a wired network, or it can connect over Wifi using the [EFSCOIN Efs USB wifi](https://github.com/efscoin/efscoin/usb-wifi/) or the EFSCOIN Efs Model built-in wifi. 
 
 Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Efs Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root EFSCOIN directory and append `showall` to the arguments list.
 
@@ -61,7 +61,7 @@ If a wired ethernet cable is plugged into the Efs before EFSCOIN starts, EFSCOIN
 
 #### Wifi Networks
 
-If you have the official [EFSCOIN Efs USB wifi](https://github.com/efscoin/usb-wifi/), or are using the EFSCOIN Efs Model B with built-in wifi, the wifi icon on the EFSCOIN toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
+If you have the official [EFSCOIN Efs USB wifi](https://github.com/efscoin/efscoin/usb-wifi/), or are using the EFSCOIN Efs Model with built-in wifi, the wifi icon on the EFSCOIN toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
 
 ![alt text](screenshots/wifi_selector.png "Select your wifi network and enter the password")
 
@@ -92,7 +92,7 @@ The built-in Arora web browser allows you to easily get help via the EFSCOIN Efs
 
 ![alt text](screenshots/browser.png "Search the EFSCOIN Efs forums for help via the built-in web browser")
 
-### Easy Config File Editor
+### Simple Config File Editor
 
 The built-in config file editor allows you to edit the config file of the OS currently highlighted in the OS list. This allows you to easily add license keys to different OS installs through the same interface.
 
@@ -108,7 +108,7 @@ An installer slideshow guides you through your first steps with each OS while it
 
 ### OS Boot Selector
 
-After multiple OSes have been installed, you can select which OS to boot through this selection window that is automatically displayed. NOOBS will remember your choice and boot this OS by default unless a different option has been selected within 10 seconds.
+After multiple OSes have been installed, you can select which OS to boot through this selection window that is automatically displayed. EFSCOIN will remember your choice and boot this OS by default unless a different option has been selected within 10 seconds.
 
 Note that if only one OS is installed then the boot selector will not be displayed and the OS will be automatically booted.
 
