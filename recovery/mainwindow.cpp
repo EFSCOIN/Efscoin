@@ -250,7 +250,7 @@ void MainWindow::populate()
     /* Ask user to wait while list is populated */
     if (!_allowSilent)
     {
-        _qpd = new QProgressDialog(tr("Please wait while NOOBS initialises"), QString(), 0, 0, this);
+        _qpd = new QProgressDialog(tr("Please wait while EFSCOIN initialises"), QString(), 0, 0, this);
         _qpd->setWindowFlags(Qt::Window | Qt::CustomizeWindowHint | Qt::WindowTitleHint);
         _qpd->show();
 
@@ -473,7 +473,7 @@ bool MainWindow::isSupportedOs(const QString &name, const QVariantMap &values)
 
         foreach (QString m, supportedModels)
         {
-            /* Check if the full formal model name (e.g. "Raspberry Pi 2 Model B Rev 1.1")
+            /* Check if the full formal model name (e.g. "EFSCOIN Efs Model Rev 1.1")
              * contains the string we are told to look for (e.g. "Pi 2") */
             if (_model.contains(m, Qt::CaseInsensitive))
             {
@@ -610,7 +610,7 @@ void MainWindow::on_actionWrite_image_to_disk_triggered()
         }
         if (_silent || allSupported || QMessageBox::warning(this,
                                         tr("Confirm"),
-                                        tr("Warning: incompatible Operating System(s) detected. The following OSes aren't supported on this revision of Raspberry Pi and may fail to boot or function correctly:") + unsupportedOses,
+                                        tr("Warning: incompatible Operating System(s) detected. The following OSes aren't supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:") + unsupportedOses,
                                         QMessageBox::Yes, QMessageBox::No) == QMessageBox::Yes)
         {
             setEnabled(false);
@@ -703,7 +703,7 @@ void MainWindow::on_list_currentRowChanged()
 
 void MainWindow::update_window_title()
 {
-    setWindowTitle(QString(tr("NOOBS v%1 - Built: %2")).arg(VERSION_NUMBER, QString::fromLocal8Bit(__DATE__)));
+    setWindowTitle(QString(tr("EFSCOIN v%1 - Built: %2")).arg(VERSION_NUMBER, QString::fromLocal8Bit(__DATE__)));
 }
 
 void MainWindow::changeEvent(QEvent* event)
@@ -978,7 +978,7 @@ void MainWindow::copyWpa()
         f.setPermissions( QFile::WriteUser | QFile::ReadGroup | QFile::ReadOther | QFile::ReadUser );
 
 	/* rename the user file to indicate that it has been copied (and prevent it being re-copied next time, 
-           which could potentially overwrite any SSIDs created in the NOOBS GUI) */
+           which could potentially overwrite any SSIDs created in the EFSCOIN GUI) */
 	backupFile("/mnt/wpa_supplicant.conf");
 
         QProcess::execute("sync");
@@ -1629,7 +1629,7 @@ void MainWindow::hideDialogIfNoNetwork()
                 {
                     QMessageBox::critical(this,
                                           tr("No network access"),
-                                          tr("Network access is required to use NOOBS without local images. Please select your wifi network in the next screen."),
+                                          tr("Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen."),
                                           QMessageBox::Close);
                     on_actionWifi_triggered();
                 }
@@ -1637,7 +1637,7 @@ void MainWindow::hideDialogIfNoNetwork()
                 {
                     QMessageBox::critical(this,
                                           tr("No network access"),
-                                          tr("Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port."),
+                                          tr("Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port."),
                                           QMessageBox::Close);
                 }
             }
@@ -1752,7 +1752,7 @@ void MainWindow::on_targetCombo_currentIndexChanged(int index)
         {
             if (QMessageBox::question(this,
                                       tr("Reformat drive?"),
-                                      tr("Are you sure you want to reformat the drive '%1' for use with NOOBS? All existing data on the drive will be deleted!").arg(devname),
+                                      tr("Are you sure you want to reformat the drive '%1' for use with EFSCOIN? All existing data on the drive will be deleted!").arg(devname),
                                       QMessageBox::Yes, QMessageBox::No) == QMessageBox::Yes)
             {
                 InitDriveThread idt("/dev/"+devname);
