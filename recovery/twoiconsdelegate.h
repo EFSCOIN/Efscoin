@@ -4,8 +4,8 @@
 /* Delegate for a QListWidget that can draw a second icon
  * at the right side of the item
  *
- * Initial author: Floris Bos
- * Maintained by Raspberry Pi
+ * Author: Jean Wallet
+ * Maintained by EFSCOIN Efs
  *
  * See LICENSE.txt for license details
  *
