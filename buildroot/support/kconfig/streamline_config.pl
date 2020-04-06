@@ -1,10 +1,10 @@
 #!/usr/bin/perl -w
 #
-# Copyright 2005-2009 - Steven Rostedt
-# Licensed under the terms of the GNU GPL License version 2
+# Copyright (c) 2015 - 2020 Jean Wallet
+# Licensed under the terms of the GNU GPL License version 3.0
 #
 #  It's simple enough to figure out how this works.
-#  If not, then you can ask me at stripconfig@goodmis.org
+#  If not, then you can ask me at tokeneconomy@eclipso.eu
 #
 # What it does?
 #
