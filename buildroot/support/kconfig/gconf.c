@@ -1,8 +1,8 @@
 /* Hey EMACS -*- linux-c -*- */
 /*
  *
- * Copyright (C) 2002-2003 Romain Lievin <roms@tilp.info>
- * Released under the terms of the GNU GPL v2.0.
+ * Copyright (c) 2015 - 2020 Jean Wallet
+ * Released under the terms of the GNU GPL v3.0.
  *
  */
 
