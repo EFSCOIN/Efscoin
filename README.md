@@ -4,9 +4,9 @@
 
 EFSCOIN is designed to make it easy to select and install operating systems for the EFSCOIN Efs without having to worry about manually imaging your SD card.
 
-The latest official release of EFSCOIN can be downloaded from https://github.com/efscoin/efscoin.
+The latest official release of EFSCOIN can be [downloaded from](https://github.com/efscoin/efscoin).
 
-For information on previous releases and version changelists, visit https://github.com/efscoin/efscoin/releases
+For information on previous releases and version changelists, [visit](https://github.com/efscoin/efscoin/releases).
 
 ![alt text](screenshots/os_installed.png "EFSCOIN Interface")
 
@@ -67,11 +67,11 @@ If you have the official [EFSCOIN Efs USB wifi](https://github.com/efscoin/efsco
 
 ### How to Format an SD card as FAT
 
-For <b>Windows</b> users, we recommend formatting your SD card using the SD Association's Formatting Tool, which can be downloaded from https://www.sdcard.org/downloads/formatter_4/ You will need to set "FORMAT SIZE ADJUSTMENT" option to "ON" in the "Options" menu to ensure that the entire SD card volume is formatted - not just a single partition. With the latest SD Association Formatting Tool (V5.0) that option has been removed and is now the default. For more detailed and beginner-friendly formatting instructions, please refer to https://github.com/efscoin/efscoin/quick-start-guide
+For <b>Windows</b> users, we recommend formatting your SD card using the SD Association's Formatting Tool, which can be [downloaded from](https://www.sdcard.org/downloads/formatter_4/). You will need to set "FORMAT SIZE ADJUSTMENT" option to "ON" in the "Options" menu to ensure that the entire SD card volume is formatted - not just a single partition. With the latest SD Association Formatting Tool (V5.0) that option has been removed and is now the default. For more detailed and beginner-friendly formatting instructions, [please refer to](https://github.com/efscoin/efscoin/quick-start-guide).
 
 The SD Association's Formatting Tool is also available for <b>Mac</b> users although the default OSX Disk Utility is also capable of formatting the entire disk (select the SD card volume and choose "Erase" with "MS-DOS" format).
 
-For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for Linux users: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/efscoin-for-efscoin-efs/ )
+For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for [Linux users](http://qdosmsq.dunbar-it.co.uk/blog/2013/06/efscoin-for-efscoin-efs/)
 
 ===
 
@@ -81,7 +81,7 @@ For <b>Linux</b> users we recommend `gparted` (or the command line version `part
 
 Simply select the checkbox next to each OS you want to install using either a mouse or keyboard (arrow keys to traverse the list, enter to toggle the selected OS's checkbox), then click the "Install" icon (or press "i" on your keyboard) to install the selection. The icons shown on the right of the list indicate whether the OS is being installed from the SD card (SD card icon) or from the online OS repository (Ethernet icon).
 
-![alt text](screenshots/os_selected.png "Select your choice of OSes to install")
+Screenshot example: ![alt text](screenshots/os_selected.png "Select your choice of OSes to install")
 
 <sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
@@ -90,7 +90,7 @@ Simply select the checkbox next to each OS you want to install using either a mo
 
 The built-in Arora web browser allows you to easily get help via the EFSCOIN Efs Forums (wired network connection required).
 
-![alt text](screenshots/browser.png "Search the EFSCOIN Efs forums for help via the built-in web browser")
+Screenshot example: ![alt text](screenshots/browser.png "Search the EFSCOIN Efs forums for help via the built-in web browser")
 
 ### Simple Config File Editor
 
@@ -98,13 +98,13 @@ The built-in config file editor allows you to edit the config file of the OS cur
 
 Note that the output mode selected by the user through pressing one of number keys 1 to 4 (for HDMI preferred, HDMI VGA, Composite PAL and Composite NTSC respectively), will be automatically set in the `config.txt` files of your installed OSes. This means that you shouldn't have to worry about manually changing your display settings to get your installed OS to display correctly on your display device.
 
-![alt text](screenshots/config_editor.png "Easily edit the config files of any installed OS")
+Screenshot example: ![alt text](screenshots/config_editor.png "Easily edit the config files of any installed OS")
 
 ### Installer Slideshow
 
 An installer slideshow guides you through your first steps with each OS while it installs.
 
-![alt text](screenshots/installer_slides.png "An installer slideshow guides you through your first steps with each OS")
+Screenshot example: ![alt text](screenshots/installer_slides.png "An installer slideshow guides you through your first steps with each OS")
 
 ### OS Boot Selector
 
@@ -112,7 +112,7 @@ After multiple OSes have been installed, you can select which OS to boot through
 
 Note that if only one OS is installed then the boot selector will not be displayed and the OS will be automatically booted.
 
-![alt text](screenshots/boot_select.png "Easily select which OS you want to boot from a list of those currently installed")
+Screenshot example: ![alt text](screenshots/boot_select.png "Easily select which OS you want to boot from a list of those currently installed")
 
 ==
 
@@ -315,9 +315,9 @@ so that the project also compiles and can be tested under standard Qt.
 
 References:
 
-http://qt-project.org/doc/qt-4.8/i18n-source-translation.html
+[QT Project translation](http://qt-project.org/doc/qt-4.8/i18n-source-translation.html).
 
-http://qt-project.org/doc/qt-4.8/linguist-manual.html
+[QT Project manual](http://qt-project.org/doc/qt-4.8/linguist-manual.html).
 
 To set up a git pre-commit hook to automatically update the translation files, run the following commands in the project root:
 - `chmod +x pre-commit-translation-update-hook.sh`
@@ -329,7 +329,7 @@ To add a new translation:
 - The *.ts* can then be sent to the translator, opened in Qt Linguist and filled in.
 - Add a line for the *.ts* file in to `recovery/icons.qrc`, but substitute *.ts* extension with *.qm* . This file contains a list
   of resource files that will be embedded into the application's executable during build.
-- Add a flag icon for your language from http://www.famfamfam.com/lab/icons/flags/ flag icon collection or if it
+- Add a flag icon for your [language from](http://www.famfamfam.com/lab/icons/flags/) flag icon collection or if it
   doesn't have the one you need, you may use some other small png icon for it. Copy the icon file to the `recovery/icons`
   folder and add a line for it into `recovery/icons.qrc` as well.
 
@@ -352,9 +352,9 @@ Recovery software directly links to:
 - Qt libraries, available under LGPL and commercial license.
 
 Currently used icon sets:
-- http://www.fatcow.com/free-icons - Creative commons Attribution license
-- http://www.famfamfam.com/lab/icons/flags - "These flag icons are available for free use for any purpose with no requirement for attribution."
-- http://www.oxygen-icons.org/ - Available under Creative Common Attribution-ShareAlike 3.0 and LGPL license
+- [Creative common](http://www.fatcow.com/free-icons) - Creative commons Attribution license
+- [Flags icon](http://www.famfamfam.com/lab/icons/flags) - "These flag icons are available for free use for any purpose with no requirement for attribution."
+- [Oxygen icon](http://www.oxygen-icons.org/) - Available under Creative Common Attribution-ShareAlike 3.0 and LGPL license
 
 Licenses of utility software built by buildroot:
 Type `cd buildroot ; make legal-info` to generate a list, which will be available under `output/legal-info`.
