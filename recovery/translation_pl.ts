@@ -96,9 +96,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>Chcesz aby NOOBS stworzył je dla ciebie?
+        <translation>Chcesz aby EFSCOIN stworzył je dla ciebie?
 UWAGA: To usunie wszystkie dane zapisane na karcie SD</translation>
     </message>
     <message>
@@ -118,8 +118,8 @@ UWAGA: To usunie wszystkie dane zapisane na karcie SD</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>Karta SD została sformatowana i jest gotowa na instalacje NOOBS. Proszę ponownie skopiować pliki NOOBS na kartę i zresetować komputer.</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>Karta SD została sformatowana i jest gotowa na instalacje EFSCOIN. Proszę ponownie skopiować pliki EFSCOIN na kartę i zresetować komputer.</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -319,8 +319,8 @@ UWAGA: To usunie wszystkie dane zapisane na karcie SD</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>Otwiera przeglądarkę wyświetlając forum Raspberry Pi.</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>Otwiera przeglądarkę wyświetlając forum EFSCOIN Efs.</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -434,7 +434,7 @@ UWAGA: To usunie wszystkie dane zapisane na karcie SD</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -520,8 +520,8 @@ Czy chcesz zachować te ustawienia?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>Kablowe połączenie z siecią jest wymagane do używania NOOBS bez lokalnego obrazu. Proszę włożyć kabel sieciowy do odpowiedniego portu.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>Kablowe połączenie z siecią jest wymagane do używania EFSCOIN bez lokalnego obrazu. Proszę włożyć kabel sieciowy do odpowiedniego portu.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -530,7 +530,7 @@ Czy chcesz zachować te ustawienia?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
