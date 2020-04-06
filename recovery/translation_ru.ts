@@ -96,9 +96,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>Вы хотите,чтобы NOOBS создал её для вас?
+        <translation>Вы хотите,чтобы EFSCOIN создал её для вас?
 ВНИМАНИЕ: После этого все данные на SD карте будут утеряны.</translation>
     </message>
     <message>
@@ -118,8 +118,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>SD карта будет форматированна для установки NOOBS. Пожалуйста перекопируйте файлы NOOBS на карту памяти и перезагрузитесь.</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>SD карта будет форматированна для установки EFSCOIN. Пожалуйста перекопируйте файлы EFSCOIN на карту памяти и перезагрузитесь.</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -352,7 +352,7 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
+        <source>EFSCOIN v%1 - Built: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -419,8 +419,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>Пожалуйста подождите пока NOOBS инициализируется</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>Пожалуйста подождите пока EFSCOIN инициализируется</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="590"/>
@@ -434,7 +434,7 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -520,8 +520,8 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>Чтобы использовать NOOBS без локальных образов вам необходим доступ в интернет. Пожалуйста вставьте кабель к интернет порт.</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>Чтобы использовать EFSCOIN без локальных образов вам необходим доступ в интернет. Пожалуйста вставьте кабель к интернет порт.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -530,7 +530,7 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
