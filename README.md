@@ -142,7 +142,7 @@ There are two main use cases for which you may want to create a custom version o
 
 The following steps allow you to create a modified copy of one of the standard OS releases that contains your custom files, packages and settings.
 
-1. Download a base version of EFSCOIN from http://github.com/efscoin/EFSCOIN.
+1. Download a base version of [EFSCOIN from](http://github.com/efscoin/EFSCOIN).
 
 2. Extract the EFSCOIN zipfile
 
