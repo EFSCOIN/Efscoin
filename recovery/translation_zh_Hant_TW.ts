@@ -438,8 +438,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="706"/>
-        <source>NOOBS v%1 - Built: %2</source>
-        <translation>NOOBS v%1 - 建置：%2</translation>
+        <source>EFSCOIN v%1 - Built: %2</source>
+        <translation>EFSCOIN v%1 - 建置：%2</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="738"/>
@@ -797,7 +797,7 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="wifisettingsdialog.ui" line="71"/>
-        <source>Password authentication</source>
+        <source>Password authentication</source> 
         <translation>密碼驗證</translation>
     </message>
     <message>
