@@ -129,9 +129,9 @@
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="160"/>
-        <source>Would you like NOOBS to create one for you?
+        <source>Would you like EFSCOIN to create one for you?
 WARNING: This will erase all data on your SD card</source>
-        <translation>您想要讓 NOOBS 為您建立一個嗎？
+        <translation>您想要讓 EFSCOIN 為您建立一個嗎？
 警告：這將會抹除您 SD 記憶卡上所有的資料</translation>
     </message>
     <message>
@@ -163,8 +163,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="190"/>
-        <source>SD card has now been formatted ready for NOOBS installation. Please re-copy the NOOBS files onto the card and reboot</source>
-        <translation>SD 記憶卡已經被格式化完成，準備好給 NOOBS 使用了。請重新複製 NOOBS 檔案到記憶卡上並重新開機</translation>
+        <source>SD card has now been formatted ready for EFSCOIN installation. Please re-copy the EFSCOIN files onto the card and reboot</source>
+        <translation>SD 記憶卡已經被格式化完成，準備好給 EFSCOIN 使用了。請重新複製 EFSCOIN 檔案到記憶卡上並重新開機</translation>
     </message>
     <message>
         <location filename="initdrivethread.cpp" line="195"/>
@@ -319,8 +319,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.ui" line="221"/>
-        <source>Opens a web browser displaying the Raspberry Pi Forum.</source>
-        <translation>開啟網路瀏覽器並顯示 Raspberry Pi 論壇。</translation>
+        <source>Opens a web browser displaying the EFSCOIN Efs Forum.</source>
+        <translation>開啟網路瀏覽器並顯示 EFSCOIN Efs 論壇。</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="236"/>
@@ -374,8 +374,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
-        <source>Please wait while NOOBS initialises</source>
-        <translation>請在 NOOBS 初始化時稍候</translation>
+        <source>Please wait while EFSCOIN initialises</source>
+        <translation>請在 EFSCOIN 初始化時稍候</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="341"/>
@@ -412,8 +412,8 @@ WARNING: This will erase all data on your SD card</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="613"/>
-        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of Raspberry Pi and may fail to boot or function correctly:</source>
-        <translation>警告：已偵測到不相容的作業系統。以下的作業系統在此版本的 Raspberry Pi 不被支援，它們可能會啟動失敗，或是有功能執行不正確：</translation>
+        <source>Warning: incompatible Operating System(s) detected. The following OSes aren&apos;t supported on this revision of EFSCOIN Efs and may fail to boot or function correctly:</source>
+        <translation>警告：已偵測到不相容的作業系統。以下的作業系統在此版本的 EFSCOIN Efs 不被支援，它們可能會啟動失敗，或是有功能執行不正確：</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="655"/>
@@ -524,13 +524,13 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1632"/>
-        <source>Network access is required to use NOOBS without local images. Please select your wifi network in the next screen.</source>
-        <translation>NOOBS 若不使用本機映像檔則需要網路連線。請在下一個畫面中選取您的 wifi 網路。</translation>
+        <source>Network access is required to use EFSCOIN without local images. Please select your wifi network in the next screen.</source>
+        <translation>EFSCOIN 若不使用本機映像檔則需要網路連線。請在下一個畫面中選取您的 wifi 網路。</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1640"/>
-        <source>Wired network access is required to use NOOBS without local images. Please insert a network cable into the network port.</source>
-        <translation>NOOBS 若不使用本機映像檔則需要有線網路連線。請插入一條網路纜線至網路埠中。</translation>
+        <source>Wired network access is required to use EFSCOIN without local images. Please insert a network cable into the network port.</source>
+        <translation>EFSCOIN 若不使用本機映像檔則需要有線網路連線。請插入一條網路纜線至網路埠中。</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1754"/>
@@ -539,8 +539,8 @@ Would you like to make this setting permanent?</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1755"/>
-        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with NOOBS? All existing data on the drive will be deleted!</source>
-        <translation>您確定您要重新格式化磁碟 &apos;%1&apos; 供 NOOBS 使用嗎？所有在該磁碟上的資料都會被刪除！</translation>
+        <source>Are you sure you want to reformat the drive &apos;%1&apos; for use with EFSCOIN? All existing data on the drive will be deleted!</source>
+        <translation>您確定您要重新格式化磁碟 &apos;%1&apos; 供 EFSCOIN 使用嗎？所有在該磁碟上的資料都會被刪除！</translation>
     </message>
 </context>
 <context>
